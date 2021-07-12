@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "sloth-ci-validators-bitbucket"
 version = "1.1.1"
-description = "Bitbucket validator for Sloth CI."
+description = "Bitbucket validator for Sloth CI"
 authors = ["Constantine Molchanov <moigagoo@live.com>"]
 license = "MIT"
 readme = "README.md"
