@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sloth-ci-validators-bitbucket"
+version = "1.1.1"
+description = "Bitbucket validator for Sloth CI."
+authors = ["Constantine Molchanov <moigagoo@live.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sloth_ci"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sloth-ci = "^2.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
